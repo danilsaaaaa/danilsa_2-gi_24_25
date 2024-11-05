@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>A Primeira Página com JavaScript</title>
+
+<script type="text/javacript">
+alert("Seja bem vindo(a) à minha página com JavaScript");
+</script)
+
+</head>
+
+<body>
+<h1>A minha primeira página com JavaScript!!!</h1>
+<a href="http://www.w3.org/" target="_blank"
+onclick="alert(Obrigado por visitar o W3c!')">Visite o W3c</a>
+<h1> O JavaScript é divertido!</h1>
+<button type="button"
+onclick="documentById('demo').InnerHTML = Date()">
+Clica no botão para saberes a data e a hora!.</button>
+<p id="demo"></p>
+<h1>De que é capaz o JavaScript?</h1>
+
+<p id="demo">O JavaScript pode alterar o conteúdo de HTML</p>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Hello JavaScript!'">
+Clica aqui!</button>
+<h1>O JavaScript pode alterar imagens!</h1>
+<h2>Vamos fazer um jogo!</h2>
+<h3>Clica em cima das imagens para saber qual é a cidade!</h3>
+<img id="myImage1" onclick="changeImage()" src="lisboa1.jpg" width="300"
+height="280">
+
+<script>
+function chageImage1(){
+var image= document.getElementById('myImage1');
+if (image.src.match("rei_copas")){
+image.src= "images";
+}else{
+image.src= "as_copas";
+}
+<h1>Testando as potencialidades do JavaScript!</h1>
+<p id="demo">O JavaScriptpode mudar o estilo de elemento HTML.</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("demo");
+	x.style.fontSize="25px";
+	x.style.color="red";
+	}
+	</script>
+	<button type="button" onclick="myFunction()" Clica aqui!</button>
+	<h1>Abracadabra!</h1>
+	<p>Ao clicar no botão o texto desaparece!!!</p>
+	
+	<button type="button" onclick="document.write('Magia')">Experimente!
+	</button>
+	<h1>Continua a interação com o utilizador!<h1>
+	
+	<script>
+	confirm("Olá a todos!");
+	confirm("Prontos para aprender JavaScript")
+    </script>
+	
+	<h1>Continua a interação com o utilizador - Parte II!</h1>
+	
+	<script>
+	prompt("Qual é o seu nome?");
+	prompt("Introduza a sua iadde, por favor.");
+	</script>
+</body>
+</html>

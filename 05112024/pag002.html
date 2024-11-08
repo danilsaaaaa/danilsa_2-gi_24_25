@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        label{
+            width: 150px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        input {
+            width: 200px;
+
+            .formlinha {
+                margin-bottom: 20px;
+            }
+
+            fieldset {
+                display: block;
+                margin-left: 20px;
+                margin-right: 200px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: 5px dashed gold;
+            }
+            h1{
+                font-size: 55px;
+                text-align: center;
+                background-color: #FAFAD2;
+                color: #800000;
+                border: 8px groove chocolate;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="contact"> <h1>Dados de Contacto:</h1>
+    <form method="get">
+    <fieldset>
+        <legend><h2>Dados Pessoais:</h2></legend>
+    </div>
+    
+    <div class="formlinha">
+    <label for="ContactNome">Nome:</label>
+        <legend><h2>Dados Pessoais:</h2></legend 
+    </div>
+
+    <div class="formlinha">
+    <label for="ContactNome">Nome:</label>
+        <legend><h2>Dados Pessoais:</h2></legend 
+    </div>  
+             
+    <div class="formlinha">
+    <label for="email">Email:</label>
+    <input name="email" id="email" type="text">
+    </div>
+
+    <div class="formlinha">
+        <label for="notes">Comentário:</label>
+        <textarea><input name="notas" cols="40" rows="6" maxlegth="200"></textarea>
+        </div>
+   
+    <div class="formlinha"></div>
+    </fieldset>
+    Insira a avaliação(Entre 1 e 5):
+    <input type="number" name="avaliação" min="1" max="5">
+    <br><br>
+
+    Seleciona um valor:
+    <input type="number" name="avaliação" min="1" max="5">
+
+    <fieldset>
+    <legend>Contactos Pessoais:</legend>
+    <br>
+    <label for="email_id">Email:</label>
+    <input id="email_id" name="email" type="email"><br><br>
+    <label for="url_id">Site da empresa:</label>
+    <input id="url_id" name="url" type="url"><br><br>
+    <label for="data_id">Data de nascimento:</label>
+    <input id="data_id" name="date" type="date"><br><br>
+    <label for="data_hora_id_id">Data/Hora:</label>
+    <input id="data_hora_id_id" name="data-hora" type="data-hora"><br><br>
+    <label for="mes_id">Em que mês nasceu:</label>
+    <input id="mes_id" name="mes" type="mes"><br><br>
+    <label for="hora_id">Hora do dia:</label>
+    <input id="hora_id" name="hora" type="hora"><br><br>
+    <label for="semana_id">Semana do rock in rio:</label>
+    <input id="semana_id" name="semana" type="semana"><br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Linguagens que conhece:</legend>
+    <input id="senha_id" name="senha" type="password">
+    <input id="sim_id" name="newsletter" type="checkbox" value="sim">
+    <br><br>
+    <input id="java_id" name="checkbox" value="java" name="checked">Java
+    <input id="csharp_id" name="checkbox" value="csharp" name="linguagens">C#
+    <input id="php_id" name="checkbox" value="php" name="checked">PHP
+    <input id="ruby_id" name="checkbox" value="ruby" name="linguagens">Ruby
+
+    <legend>Cidades:</legend>
+    <input id="sp_id" type="rádio" value="sao_paulo" name="club">São Paulo
+    <input id="barcelona_id" type="rádio" value="barcelona" name="club">Barcelona
+    <input id="milan_id" type="rádio" value="milan" name="club">Milan
+    <input id="mu_id" type="rádio" value="manchesterU" name="club">Manchester United
+    <input id="bdm_id" type="rádio" value="bayern" name="club">Bayern Munique
+    
+</fieldset>
+</body>
+</html>
